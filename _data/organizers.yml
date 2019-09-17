@@ -1,0 +1,4 @@
+- 
+  group: "Main organizer"
+  elements: 
+    - {name: "Python Ireland", description: "The Python Ireland Committee", link: "http://python.ie", imageUrl: "python.png"}

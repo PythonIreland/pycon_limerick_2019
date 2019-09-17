@@ -1,0 +1,282 @@
+# Plugins
+plugins:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "PyCon Ireland 2019 - Ireland's Python Conference"
+email: "pycon@python.ie"
+description: "Python Ireland's Annual Python Conference"
+baseurl: ""
+url: "https://pycon2019.python.ie"
+#permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-53856571-4"
+googleAnalyticsSiteUrl: "python.ie"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+
+# Organizer Info
+organizerName: "Python Ireland"
+#organizerAlternateName: "Google Developer Group Lviv"
+organizerDescription: "The Python Ireland Committee"
+organizerEmail: "pycon@python.ie"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://python.ie/"
+
+# Head
+metaKeywords: "event, pycon, python, programming, pydata"
+twitterAccount: "@PythonIreland"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4sponsorsUrl: "http://python.ie/pycon-2019/call-for-sponsors/"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/speakers", text: "Speakers"}
+ - {permalink: "/#partners", text: "Sponsors"}
+ # - {permalink: "/#keynote-speakers", text: "Keynotes"}
+ # - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
+ # - {permalink: "/#quiz", text: "Entertainment"}
+ # - {permalink: "/#talks", text: "Talks"}
+ - {permalink: "/#venue", text: "Venue"}
+ - {permalink: "/#tickets", text: "tickets"}
+ - {permalink: "/schedule", text: "Schedule"}
+
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/team/", text: "Team"}
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2019/call-for-proposals", text: "Become a speaker"}
+#bottomNavigationLinks:
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2019/call-for-proposals", text: "Become a speaker"}
+#rightNavigationButtons:
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2019/call-for-proposals", text: "Become a speaker"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "PyConIE 2019 - Ireland's Python Conference"
+eventDate: "Sat 12th - Sun 13th of October"
+typeoutTextValues: ''
+typeoutFallback: ""
+heroButtons:
+ # - {permalink: "/#keynote-speakers", text: "Keynotes"}
+ - {permalink: "/speakers", text: "Speakers"}
+ - {permalink: "/#partners", text: "Sponsors"}
+  # - {permalink: "/#quiz", text: "Entertainment"}
+ - {permalink: "/#venue", text: "Venue"}
+ - {permalink: "/#tickets", text: "Tickets"}
+ - {permalink: "/schedule", text: "Schedule"}
+
+
+# - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
+# - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
+# - {link: "http://python.ie/pycon/volunteer/", text: "Become a volunteer"}
+
+# About Block
+aboutTitle: "About PyConIE 2019"
+aboutBlock:
+ - {title: "Talks", image: "conference.jpg", text: "The best talks from Irish and International speakers about Python and related technologies." }
+ - {title: "Workshops", image: "workshop.jpg", text: "Full workshop tracks to up-skill on some new technology." }
+ - {title: "Networking", image: "networking.jpg", text: "Meet new friends and enjoy Dublin City, enjoy our entertainment events!" }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "400", specialCharacter: "+", info: "attendees", detail: "from everywhere around Ireland and the world"}
+ - {count: "40", specialCharacter: "+", info: "speakers", detail: "from around the world"}
+ - {count: "3", specialCharacter: "", info: "talk tracks", detail: "3 tracks with a mix of core python, data science, web frameworks"}
+ - {count: "2", specialCharacter: "", info: "workshop tracks", detail: "With workshops for beginners, advanced, and data science."}
+
+# Latest News Block
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Keynote speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Radisson Blu"
+eventLocationLink: "https://www.radissonblu.com/en/royalhotel-dublin"
+eventStreetAddress: "Golden Lane"
+eventAddressLocality: "Dublin"
+#eventAddressLocalityRegion: "Ireland"
+# eventPostalCode: "79000"
+eventAddressCountry: "Ireland"
+eventStartTime: "2019-10-12T09:00"
+eventDoorTime: "08:00"
+eventEndTime: "2019-10-13T20:00"
+eventPlaceCoordinates: "53.3408484, -6.2682426"
+mapCenterCoordinates: "53.3408484, -6.2682426"
+mapMobileCenterCoordinates: "53.3408484, -6.2682426"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "radisson_0.PNG"
+venueSmallImage3: "radisson_1.PNG"
+venueTitle: "Radisson Blu"
+venueFeatures: ["2 main room on ground floor", "2 rooms on first floor", "Skybar on 7th floor"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "Latest Tweets!"
+twitterHashTag: "pyconie"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Sponsors"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+#subscribeImage: "subscribe.jpg"
+#subscribeTitle: "Subscribe for updates"
+#subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+#subscribeInfo: "Registration will be open around end of August. Number of talks are limited. Stay tuned!"
+
+
+
+# Footer
+socialLinks:
+ - {link: "https://twitter.com/intent/user?screen_name=pythonireland", icon: "twitter"}
+ - {link: "https://facebook.com/pythonireland", icon: "facebook"}
+
+footerBlocks:
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:pycon@python.ie", text: "pycon@python.ie"}
+ -
+  title: "FAQ"
+  links:
+   - {link: "https://python.ie/pycon-2019/code-conduct/", text: "Code of Conduct"}
+   - {link: "https://python.ie/pycon-2019/terms-and-conditions-attend-pycon-ie-2019/", text: "Terms and Conditions"}
+   - {link: "https://python.ie/pycon-2019/financial-aid-2019/", text: "Financial Aid"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: false
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "About us"
+aboutUs: ""
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "49.056728, 3.117289"
+logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: "Get around Dublin"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+directionDetailsWideCards:
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "Hotels"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+   -
+    title: "Registration"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+   -
+    title: "Attendance Details"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+
+# talks Block
+talksTitle: "Talks"
+workshopTitle: "Workshops"
+
+
+# Tickets Block
+ticketsTitle: "Pricetable"
+ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+#  - name: "Early Bird"
+#    price: "60"
+#    priceCurrency: "EUR"
+#    ticketsNumber: "120"
+#    ribbon: "-33%"
+#    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/pebxmuwfhqo"
+#    buyButtonText: "Buy Now"
+#    ticketContentList: ["Both days of the conference", "All workshops (arrive early)", "Breakfast, Lunch and coffee breaks"]
+#    soldOut: true
+#    validFrom: "2019-10-12T8:30"
+#    validThrough: "2019-10-13T23:59"
+  - name: "Corporate"
+    price: "300"
+    priceCurrency: "EUR"
+    ticketsNumber: "30"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/csohaw67uiy"
+    buyButtonText: "Buy Now"
+    additionalInfo: "If your company pays for your ticket or refunds you, this is the ticket you need"
+    ribbon: "Support"
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
+  - name: "General"
+    price: "90"
+    priceCurrency: "EUR"
+    ticketsNumber: "300"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/wjvu2gqeavo"
+    buyButtonText: "Buy Now"
+    additionalInfo: ""
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
+  - name: "Sunday"
+    price: "50"
+    priceCurrency: "EUR"
+    ticketsNumber: "30"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/pxwjwcrdl4g"
+    buyButtonText: "Buy Now"
+    additionalInfo: ""
+    ticketContentList: ["Only valid for Day 2", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
+  - name: "Student"
+    price: "40"
+    priceCurrency: "EUR"
+    ticketsNumber: "50"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/kaznzhgbbwa"
+    buyButtonText: "Buy Now"
+    additionalInfo: "Requires a valid student ID at the conference check in."
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
